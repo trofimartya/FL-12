@@ -1,0 +1,159 @@
+#home {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.tm-banner {
+    background-image: linear-gradient(90deg, lightskyblue, burlywood);
+}
+.tm-banner-inner {
+    background: #fff;
+}
+
+p.tm-banner-text {
+    position: relative;
+    animation-name: rnbw;
+    animation-duration: 3s;
+    text-shadow: 4px 4px 2px #333;
+}
+
+@keyframes rnbw {
+    0% {
+        right: -200px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+.heading h2 {
+    color: lightskyblue;
+    text-align: center;
+}
+a.tm-nav-item-link:hover {
+    color: #fff;
+    background-color: lightskyblue;
+}
+.flex-item {
+    align-self: center;
+}
+.flex-2-col{
+    display: flex;
+}
+p.tm-section-description {
+    text-indent: 35px;
+}
+.tm-section-title {
+    text-align: center;
+}
+.box-bg:hover {
+    background-color: lightgray;
+    color: lightskyblue;
+}
+.tm-content-box .tm-team-description-container h2 {
+    text-align: center;
+    color: lightskyblue;
+}
+
+ol {
+    list-style: lower-alpha;
+}
+
+ol li:hover::before{
+    content: ">";
+}
+.text::after {
+    font-size: 80%;
+    content: "New";
+    color: red;
+    font-variant: small-caps;
+    vertical-align: super;
+    font-weight: bold;
+}
+.tm-team-description-container h2 {
+    text-align: left;
+}
+.box-work:nth-of-type(odd) {
+    background-color: lightskyblue;
+    color: white;
+}
+.box-work:nth-of-type(odd) h2 {
+    color: white;
+}
+.box-work p {
+    font-style: italic;
+}
+.box-work p::first-letter {
+    font-weight: bold;
+}
+input[type=text]{
+  width: 100%;
+  border: 1px solid lightskyblue;
+}
+input[type=email]{
+  width: 100%;
+  border: 1px solid lightskyblue;
+}
+#contact_message{
+  width: 100%;
+  border: 1px solid lightskyblue;
+}
+#contact_name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#contact_email {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#contact_subject {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#contact h2 {
+    text-align: left;
+}
+.carousel-content p {
+    word-spacing: 5px;
+    line-height: 30px;
+}
+input:focus {
+    background-color: lightskyblue;
+}
+button.btn {
+    float: right;
+    color: lightskyblue;
+    background-color: white;
+    border-color: lightskyblue;
+    padding: 10px 10px;
+    margin-top: -35px;
+}
+section, nav {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+section:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 35px 35px 0 0;
+    border-color: lightskyblue transparent transparent transparent;
+}
+.form-group:last-of-type::after {
+    background-image: url("../img/email-icon.png");
+    content: "";
+    background-size: 100% 100%;
+    left: 1000px;
+    padding: 10px;
+    bottom: 45px;
+    height: 25px;
+    width:25px;
+    display: inline-block;
+    position:relative;
+    
+}
+.blocks .tm-team-description-container p:last-child {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
